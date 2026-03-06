@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(252, 226, 27);
+}
+
+h2{
+    color: white;
+}
+
+header{
+    background-color: rgb(10, 10, 164);
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+    
+}
+
+.topmenu {
+    color: white;
+}
+.apresentacao{
+    background-color: rgb(0, 115, 255);
+    padding: 10px;
+    margin: 1%;
+    border: 1%;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texto_apresentacao {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.legendaimagem{
+    font-style: italic;
+    font-size: smaller;
+    font-family: monospace;
+    padding: 1%;
+}
+
+.servicos{
+    background-color: rgb(252, 226, 27);
+    border-radius: 10px;
+    width: 216px;
+    height: 254px;
+    display: inline-flex;
+    color: rgb(0, 115, 255); 
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+
+.boxdiv{
+    text-align: center;
+}
+
+.servicos_titulo{
+    box-sizing: border-box;
+    background-color: rgb(252,226,27);
+    text-align: center;
+    border-radius:  10px;
+    margin: 1%;
+    color:rgb(0, 115, 255);
+
+}
