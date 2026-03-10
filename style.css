@@ -1,37 +1,49 @@
+/**** CONFIGURAÇÕES GERAIS DA PÁGINA *****/
+
 * {
     box-sizing: border-box;
     margin: 0px;
 }
 
-
+body{
+    background-color: #C4C4C4;
+    font-family: monospace;
+    font-size: 15px;
+}
 
 h2{
     color: white;
 }
+/**** CABEÇALHO *****/
 
-header{
+#header {
     background-color: rgb(10, 10, 164);
-    font-family: monospace;
     font-size: 15px;
     text-align: center;
-    padding: 15px;
-    margin: 1%;
-    border-radius: 10px;
-    
 }
 
-.topmenu {
-    color: white;
-    display: inline-flex;
-    align-items: center;
+#header a:link, #header a:visited{
+    color: white; 
+    padding: 8px 12px;
 }
+
+#header a:hover{
+    color: #0066CC;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+#logo, #topmenu {
+    padding: 10px;
+}
+
+/***** CORPO E PRINCIPAL APRESENTACAO *****/
 
 .apresentacao{
     padding: 10px;
     margin: 1%;
     border: 1%;
     color: black;
-    font-family: monospace; 
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
@@ -45,11 +57,12 @@ header{
 .legendaimagem{
     font-style: italic;
     font-size: smaller;
-    font-family: monospace;
     padding: 1%;
     text-align: center;
     justify-content: center;
 }
+
+/***** MENU DE SERVICOS *****/
 
 .servicos{
     background-color: #ddea2e;
@@ -78,6 +91,8 @@ header{
 
 }
 
+/***** EXPOSICAO DE CLIENTES *****/
+
 .clientes_titulo{
     background-color: rgb(0, 115, 255);
     box-sizing: border-box;
@@ -100,6 +115,8 @@ header{
     width: 85%;
 }
 
+/***** FINAL DA PAGAGINA COM CONTATOS *****/
+
 .contato_titulo{
     background-color: #ddea2e;
     color: rgb(0, 115, 255);
@@ -111,13 +128,11 @@ header{
 
 .formulario{
     text-align: center;
-    font-family: monospace;
     font-size: 18px;
     
 }
 
 .informacoes{
-    font-family: monospace;
     font-size: 15px;
 }
 

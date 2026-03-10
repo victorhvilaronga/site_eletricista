@@ -6,18 +6,27 @@
     <title>Eletricistas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-    <header>
-        <h1 style="margin-bottom: 5px; color: #ddea2e;">Celta Eletricistas</h1>
-        <h2 style="font-size: 15px;">Poupe sua energia e descanse enquanto fazemos o trabalho por você, e eu também!</h2> <br>
-        <p class="topmenu">Orçamentos maneiros</p>
-        <p class="topmenu">Sobre nós</p>
-        <p class="topmenu">Seja um parceiro</p>
-        <a class="topmenu">Contato</a>
-    </header>
 
+<!-- ------ CABEÇALHO E MENU DO TOPO -------- -->
+
+    <div id="header">
+        <div id="logo">
+            <h1 style="color: #ddea2e;">Celta Eletricistas</h1>
+            <h2 style="font-size: 15px;">Poupe sua energia e descanse enquanto fazemos o trabalho por você!</h2> <br>
+        </div>
+
+        <div id="topmenu">
+            <a href="index.html">HOME</a>
+            <a href="orcamentos.html">ORÇAMENTOS</a>
+            <a href="sobre.html">SOBRE</a>
+            <a href="parceiros.html">SEJA UM PARCEIRO</a>
+            <a href="contato.html">CONTATO</a>
+        </div>
+    </div>
+
+<!-- ------- TEXTO E APRESENTACAO PRINCIPAL DA PÁGINA --------- -->
+    
     <div class="apresentacao">
         <h3>Porque nos contratar?</h3><br>
         <h4>Instalações antigas ou mal feitas? Perigo para você e sua empresa e segurança garantida!<h4> <br>
@@ -33,98 +42,90 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam dolore quis ad excepturi ex ea magnam impedit autem illo, doloribus in aspernatur soluta nisi modi? Repudiandae quidem iusto repellendus et.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at dolore dolores suscipit, quia vel eos aspernatur harum ratione molestias totam exercitationem accusamus! Alias debitis nulla necessitatibus praesentium laudantium asperiores?</p>
         </div>
-
     </div>
-<br>
-    <div class="servicos_titulo">
-        <h2 class="servicos_titulo">SERVIÇOS DISPONÍVEIS</h2>
-        
-    </div>
-
-<div class="boxdiv">
     <br>
-    <div class="servicos"  style="padding: 15px;">
-        <p>PROJETOS ELÉTRICOS</p>
+
+<!-- ------- MENU DE SERVICOS OFERTADOS ------ -->
+
+    <div class="servicos_titulo">
+        <h2 class="servicos_titulo">SERVIÇOS DISPONÍVEIS</h2>    
     </div>
 
-    <div class="servicos" style="padding: 15px;">
-        <p>INSTALAÇÕES</p>
-    </div>
+    <div class="boxdiv">
+    <br>
+        <div class="servicos"  style="padding: 15px;">
+            <p>PROJETOS ELÉTRICOS</p>
+        </div>
 
-    <div class="servicos" style="padding: 15px;">
-        <p>MANUTENÇÃO</p>
-    </div>
+        <div class="servicos" style="padding: 15px;">
+            <p>INSTALAÇÕES</p>
+        </div>
 
-</div>
-    
+        <div class="servicos" style="padding: 15px;">
+            <p>MANUTENÇÃO</p>
+        </div>
+    </div>
 <br>
-        
-
+       
+<!-- -------- CLIENTES QUE PRESTAMOS SERVICOS --------- -->
     <div class="clientes_titulo">
         <h2 class="clientes_titulo">NOSSOS CLIENTES</h2>
     </div>
 
-<div class="clientes_imagens">
-
-
-    <div>
-        <img style="padding: 5px;" src="./imagens/eletrobras.png" alt="Empresa eletrobas"> 
-        <figcaption class="legendaimagem">Figura 3: Empresa Eletrobras / Imagem retirada da internet</figcaption>
+    <div class="clientes_imagens">
+        <div>
+            <img style="padding: 5px;" src="./imagens/eletrobras.png" alt="Empresa eletrobas"> 
+            <figcaption class="legendaimagem">Figura 3: Empresa Eletrobras / Imagem retirada da internet</figcaption>
         <br>
-    </div>
+        </div>
     
-    <div>
-        <img style="padding: 5px;" src="./imagens/spacex.png" alt="Empresa spacex">
-        <figcaption class="legendaimagem">Figura 4: Empresa Spacex / Imagem retirada da internet</figcaption>
-    </div>
+        <div>
+            <img style="padding: 5px;" src="./imagens/spacex.png" alt="Empresa spacex">
+            <figcaption class="legendaimagem">Figura 4: Empresa Spacex / Imagem retirada da internet</figcaption>
+        </div>
     
-    <div>
-        <img style="padding: 5px;" src="./imagens/nubank.png" alt="Empresa Nubank">
-        <figcaption class="legendaimagem">Figura 5: Empresa NuBank / Imagem retirada da internet</figcaption>
-        </figure>
+        <div>
+            <img style="padding: 5px;" src="./imagens/nubank.png" alt="Empresa Nubank">
+            <figcaption class="legendaimagem">Figura 5: Empresa NuBank / Imagem retirada da internet</figcaption>
+            </figure>
+        </div>
+    </div>
+
+<!-- ------ FORMULARIO DE CONTATO ------ -->
+    <div class="contato_titulo">
+    <h1 class="contato_titulo">CONTATO</h1>
 
     </div>
 
-</div>
-
-<div class="contato_titulo">
-    <h1 class="contato_titulo">Contato</h1>
-
-</div>
-<br>
-    <div class="formulario">
-    <form>
-        <p>Nome completo <input style="width: 50%;" type="name" placeholder="Seu nome completo aqui"></p>
-        <p>E-mail <input style="width: 42%;"  type="email" placeholder="email@email.com"></p>
-        <p>Fone <input style="width: 40%;" type="tel" pattern="[0-9] {2} - [0-9] {5} - [0-9] {4}" placeholder="(XX) XXXXX-XXXX"></p>
-        <p>Mensagem <textarea rows="5" cols="30" style="width: 50%;" placeholder="Digite sua mensagem..."></textarea></p>
-        <button style="width: 20%;">Enviar</button>
-    </form>
-    </div>
+    <br>
+        <div class="formulario">
+            <form>
+                <p>Nome completo <input style="width: 50%;" type="name" placeholder="Seu nome completo aqui"></p>
+                <p>E-mail <input style="width: 42%;"  type="email" placeholder="email@email.com"></p>
+                <p>Fone <input style="width: 40%;" type="tel" pattern="[0-9] {2} - [0-9] {5} - [0-9] {4}" placeholder="(XX) XXXXX-XXXX"></p>
+                <p>Mensagem <textarea rows="5" cols="30" style="width: 50%;" placeholder="Digite sua mensagem..."></textarea></p>
+                <button style="width: 20%;">Enviar</button>
+            </form>
+        </div>
+<!-- ------ MAIS INFORMACOES ------ -->
 
     <div class="informacoes">
-        <h4>Mais informações</h4>
+        <h4>MAIS INFORMAÇÕES</h4>
     </div>
 
-      <div class="container_info">  
+    <div class="container_info">  
         <img style="width: 5%;" src="./imagens/logo-whatsapp-png-pic-0.png">
         <p class="texto_sobreposto">(XX) 9XXXX-XXXX</p>
-        </div>
+    </div>
 
     <div class="container_info">
-      <img src="imagens/localiza.png">
+        <img src="imagens/localiza.png">
         <p class="texto_sobreposto">Onde estamos localizados</p>
     </div>
 
     <div class="container_info">
-
         <img src="./imagens/mail.png">
         <p class="texto_sobreposto">email@email.com.br</p>
-
     </div>
-
-        
-    
-
 </body>
 </html>
